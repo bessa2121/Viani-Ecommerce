@@ -6,7 +6,7 @@ O **Viani** é um projeto de e-commerce voltado para a venda de roupas, desenvol
 - **Frontend:** React
 - **Banco de Dados:** MySQL/PostgreSQL
 - **Autenticação:** JWT (JSON Web Token)
-- **Deploy:** Docker + Kubernetes (opcional)
+- **Deploy:** Docker
 
 ---
 
@@ -43,28 +43,47 @@ Código
 ## 📂 Estrutura de Pastas
 
 ### Backend (Spring Boot)
+
 viani-backend/
+
 ├── src/main/java/com/viani
+
 │    ├── controller
+
 │    ├── service
+
 │    ├── repository
+
 │    ├── model
+
 │    └── config
+
 ├── src/main/resources
+
 │    └── application.properties
+
 └── pom.xml
 
 Código
 
 ### Frontend (React)
+
 viani-frontend/
+
 ├── src/
+
 │    ├── components
+
 │    ├── pages
+
 │    ├── services
+
 │    ├── hooks
+
 │    └── App.js
+
 ├── public/
+
 └── package.json
 
 Código
@@ -85,7 +104,7 @@ Código
 - **Backend:** Java 17, Spring Boot, Spring Security, JPA/Hibernate
 - **Frontend:** React, Axios, Redux/Context API
 - **Banco de Dados:** MySQL/PostgreSQL
-- **Infra:** Docker, Kubernetes (opcional), CI/CD com GitHub Actions
+- **Infra:** Docker, CI/CD com GitHub Actions
 
 ---
 
