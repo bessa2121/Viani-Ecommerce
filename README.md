@@ -108,12 +108,39 @@ Código
 
 ---
 
-## 📌 Próximos Passos
-- [ ] Configurar autenticação JWT
-- [ ] Criar CRUD de produtos
-- [ ] Implementar carrinho de compras
-- [ ] Integrar gateway de pagamento (ex: Stripe, PayPal)
+
+## 🚀 Como Rodar o Projeto (atual)
+### Backend
+1. Clone o repositório  
+2. Entre na pasta `viani-backend`  
+3. Rode `mvn spring-boot:run`  
+
+### Frontend
+1. Entre na pasta `viani-frontend`  
+2. Instale dependências: `npm install`  
+3. Rode `npm start`  
+
+*(Obs: ainda não há integração entre backend e frontend)*
+
 ---
+
+## 📊 Roadmap Inicial
+- [ ] Configurar autenticação JWT  
+- [ ] Criar CRUD de produtos  
+- [ ] Implementar carrinho de compras  
+- [ ] Integrar gateway de pagamento  
+- [ ] Criar painel administrativo  
+
+---
+
+## 🤝 Contribuição
+Este projeto está em fase inicial.  
+Sugestões e contribuições são bem-vindas via **issues** e **pull requests**.
+
+---
+
+## 📄 Licença
+Licença MIT — uso livre para estudo e desenvolvimento.
 
 ## 👨‍💻 Autor
 Projeto desenvolvido por **Davi** como iniciativa de aprendizado e prática em **Java, Spring Boot e React**.
